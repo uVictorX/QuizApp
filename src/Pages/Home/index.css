@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.home {
+  height: 100vh;
+  width: 100%;
+  background: url('https://pikdone.com/wp-content/uploads/2021/03/freepik-blue-copy-space-digital-background-free-vector-ai-eps_604dedd9ad292.jpeg');
+  background-size: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quiz {
+  width: 45%;
+  height: 30vh;
+  background: rgba(70, 172, 214, 1);
+  border-radius: 15px;
+}
+
+.quiz .question {
+  margin: 10px;
+  font-size: 20px;
+}
+
+.question .text {  
+  margin: 20px;
+  font-size: 25px;
+}
+
+.answer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.answer .btn {
+  width: 200px;
+  height: 50px;
+  margin: 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+  background: rgba(0, 124, 255, 0.52);
+  font-size: 20px;
+  color: white;
+}
+
+.min-font {
+  font-size: 20px;
+}
+
+.score {
+  width: 40%;
+  height: 20vh;
+  background: rgba(70, 172, 214, 1);
+  border-radius: 15px;
+}
+
+.score .text-area {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.score .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.score .btn {
+  width: 200px;
+  height: 50px;
+  margin: 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+  background: rgba(0, 124, 255, 0.52);
+  font-size: 20px;
+  color: white;
+}
